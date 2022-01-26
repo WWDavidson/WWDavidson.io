@@ -1,0 +1,270 @@
+
+/* WELCOME SECTION BEGINNING */
+#bio2{
+    text-size-adjust: auto ;
+    text-align: right;
+    margin-right: 95px;
+    margin-bottom: -220px;
+    margin-left: 900px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+    
+.welcomepic{
+    height: 400px;
+    width: 400px;
+    margin-top: -350px;
+    margin-bottom: 40px;
+    margin-left: 375px;
+    border-radius: 200px;
+    border-style: double;
+    border-width: 7px;
+    border-color:turquoise;
+    filter: drop-shadow(1px 3px 2px black);
+    }
+    /* END OF WELCOME SECTION */
+.white-dropshadow{
+    color: white;
+    filter: drop-shadow(3px 6px 4px black);
+}
+/* BEGINNING OF ABOUT ME SECTION */
+#aboutme{
+    margin-top: 200px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom:px;
+    height: 900px;
+   background-color: rgb(255, 255, 255);
+   border-style:groove;
+   border-color:rgb(228, 146, 69);
+   border-width: 5px;
+}
+.aboutmetext{
+    margin-left:700px;
+    margin-top: -500px;
+    margin-right: 100px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+#aboutmeheader{
+    color: rgb(69, 49, 85);
+    text-shadow: -1px 0 rgb(243, 140, 43), 0 1px rgb(243, 140, 43), 1px 0 rgb(243, 140, 43), 0 -1px rgb(243, 140, 43);
+    font-family: 'Courier New', Courier, monospace;;
+    font-weight:normal;
+    font-size: 70px;
+    margin-left: 150px;
+    margin-top: 20px;
+    filter: drop-shadow(1px 2px 2px black);
+}
+.aboutmepic{
+    width:500px;
+    height:500px;
+    margin-left: 50px;
+    border-style:solid ;
+    border-width: 5px;
+    border-color: rgb(69, 49, 85);
+    margin-top: -10px;
+}
+/* END OF ABOUT ME */
+
+/* TEXT ANIMATION BEGINNING */
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: rgb(69, 49, 85);
+  /* background-image: url(https://images.unsplash.com/photo-1484589065579-248aad0d8b13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1059&q=80); */
+  background-size: cover;
+    background-position: center;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+ /* Khula */
+  font-family: 'Courier New', Courier, monospace;
+  /* font-weight: bold; */
+  font-size:4em;
+ text-align:center; 
+  height:600px;
+  width:1000px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:50px;
+  bottom:150;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+/* END OF TEXT ANIMATION */
+
+/* NAVIGATION BEGINNING */
+.navbar{
+    justify-content: center;
+    text-align: center;
+    color: white; 
+    margin-top: 200px;
+    margin-bottom:-20px;
+    height:95px;
+    font-size: 20px;
+    font:white;
+}
+.navbar2{
+    justify-content: center;
+    text-align: center;
+     margin-top:0px; 
+     margin-bottom:50px;
+    font-size: 10px;
+    height:10px;
+   
+}
+.navbar3{
+    justify-content: center;
+    text-align: center;
+     margin-top:-20px; 
+    font-size: 10px;
+    height:10px;
+}
+.navbar4{
+    justify-content: center;
+    text-align: center;
+     margin-top:-10px; 
+    font-size: 10px;
+    height:10px;
+}
+.link1{
+    color:rgb(243, 140, 43);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin: 70px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    filter: drop-shadow(1px 2px 2px black);
+}
+.link2{
+    color:rgb(243, 140, 43);
+    /* border-style: double; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin: 70px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    filter: drop-shadow(1px 2px 2px black);
+}
+/* END OF NAVIGATION */
+
+/* BEGINNING OF SVG STYLING */
+.astronaught{
+    fill:white;
+    height: 820px;
+    width: 850px;
+    margin-bottom: -370px;
+    margin-left: -170px;
+}
+.planet1{
+    fill:magenta;
+}
+.planet2{
+    fill:rgb(255, 153, 37)
+}
+.stars{
+    fill:rgb(255, 255, 0);
+}
+.suit{
+    fill: rgb(0, 153, 255); 
+}
+.faceshield{
+    fill:turquoise;
+}
+.buttons{
+    fill:darkred;
+}
+.planet3{
+    fill:rgb(221, 22, 22);
+}
+.planet31{
+    fill:darkorange;
+}
+.planet4{
+    fill:lawngreen;
+}
+/* END OF SVG STYLING */
+
+/* PROJECTS/MY WORK BEGINNING */
+#projects{
+    height: 900px;
+    /* border-style: double;
+    border-color: turquoise; */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    display: -webkit-flex;
+    text-align: center;
+    justify-content: center;
+}
+.card{
+    height:400px;
+    width: 400px;
+    margin:200px;
+    text-align: center;
+    border-style: solid;
+    border-color: turquoise;
+    border-width: 2px;
+    
+   }
+
+.card-group{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+    height:600px
+}
+/* END OF PROJECTS/MY WORK */
+    
+/* BEGINNING OF CONTACT SECTION */
+#contact{
+    height: 900px;
+    /* border-style: double;
+    border-color: turquoise; */
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 100px;
+    display: -webkit-flex;
+}
+.icon_container{
+    justify-content: center;
+    display:-webkit-flex;
+    height:800px;
+    width:2000px;
+    text-align: center;
+    margin:350px;
+}
+/* END OF CONTACT SECTION */
+
+
+footer{
+    color:rgb(240, 231, 231);
+    margin: 20px;
+    height: 50px; 
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
